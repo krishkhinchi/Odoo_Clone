@@ -1,0 +1,85 @@
+#header{
+    display: flex;
+    height: 60px;
+    width: 1500px;
+    position: fixed;
+    background-color: white;
+}
+  
+#odoologo{
+    margin-left: 115px;
+    width: 70px;
+    height: 70px;
+    margin-top: -6px;
+}
+  
+#navbar{
+    display: flex;
+    margin-left: 116px;
+}
+
+.h1{
+    margin-left: 50px;
+    margin-top: 20px;
+    font-family: sans-serif, Helvetica;
+    font-size: 14.3px;
+    font-weight: 550;
+    color: rgb(80, 80, 80);
+}
+
+.h2{
+    margin-left: 45px;
+    margin-top: 20px;
+    font-family: sans-serif, Helvetica;
+    font-size: 14.3px;
+    font-weight: 550;
+    color: rgb(80, 80, 80);
+}
+
+.h3{
+    margin-left: 45px;
+    margin-top: 20px;
+    font-family: sans-serif, Helvetica;
+    font-size: 14.3px;
+    font-weight: 550;
+    color: rgb(80, 80, 80);
+}
+
+.h4{
+    margin-left: 45px;
+    margin-top: 20px;
+    font-family: sans-serif, Helvetica;
+    font-size: 14.3px;
+    font-weight: 550;
+    color: rgb(80, 80, 80);
+}
+
+.h5{
+    margin-left: 45px;
+    margin-top: 20px;
+    font-family: sans-serif, Helvetica;
+    font-size: 14.3px;
+    font-weight: 550;
+    color: rgb(80, 80, 80);
+}
+
+.Signin{
+    margin-left: 75px;
+    font-family: sans-serif, Helvetica;
+    font-size: 14.3px;
+    font-weight: 550;
+    color: rgb(80, 80, 80);
+}
+
+.Tryitfree{
+    margin-left: 20px;
+    background-color: rgb(162,70,137);
+    margin-top: 13px;
+    margin-bottom: 13px;
+    border-radius: 5px;
+    padding-left: 15px;
+    padding-right: 15px;
+    color: aliceblue;
+    font-size: 12px;
+    font-weight: 700;
+}

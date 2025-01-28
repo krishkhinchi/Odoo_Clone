@@ -1,0 +1,74 @@
+body{
+    background-color: rgb(255, 255, 255);
+}
+
+#login{
+    width: 350px;
+    height: 520px;
+    background-color: rgb(255, 255, 255);
+    margin-left: 400px;
+    margin-top: 20px;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.4);
+    border-width: 1px;
+}
+
+.odoologo{
+    width: 100px;
+    height: 100px;
+    margin-left: 120px;
+    /* margin-top: -10px; */
+    /* padding-top: -10px; */
+}
+
+#info{
+    width: 300px;
+    height: 100px;
+    margin-left: 25px;
+    border-radius: 10px;
+    border-width: 1.2px;
+    border-color: rgb(162,218,227);
+    background-color: rgb(209,236,241);
+    padding-top: 20px;
+    font-size: 17px;
+    font-weight: 400;
+    text-align: center;
+    color: rgb(9,65,74);
+}
+
+#input{
+    padding: 25px;
+}
+
+.int1,.int2{
+    border-width: 1.2px;
+    border-radius: 5px;
+    width: 300px;
+    height: 40px;
+}
+
+#pw{
+    margin-top: 20px;
+}
+
+.btn1{
+    color: rgb(1,126,132);
+    margin-left: 115px;
+}
+
+#signin{
+    background-color: rgb(162,70,137);
+    color: white;
+    width: 300px;
+    height: 40px;
+    margin-top: 50px;
+    text-align: center;
+    padding-top: 7px;
+    border-radius: 5px;
+    font-weight: 500;
+}
+
+.notAcc{
+    text-align: center;
+    margin-top: 15px;
+    color: rgb(1,126,132);
+}
