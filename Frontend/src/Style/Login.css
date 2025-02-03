@@ -2,9 +2,21 @@ body{
     background-color: rgb(255, 255, 255);
 }
 
+#imgs1{
+    display: flex;
+}
+
+.arrow1{
+    width: 20px;
+    height: 20px;
+    margin-top: 10px;
+    margin-left: 10px;
+    opacity: 20%;
+}
+
 #login{
     width: 350px;
-    height: 520px;
+    height: 510px;
     background-color: rgb(255, 255, 255);
     margin-left: 400px;
     margin-top: 20px;
@@ -12,15 +24,14 @@ body{
     border-width: 1px;
 }
 
-.odoologo{
+.odoologo2{
     width: 100px;
     height: 100px;
-    margin-left: 120px;
-    /* margin-top: -10px; */
-    /* padding-top: -10px; */
+    margin-left: 90px;
+    margin-top: -10px;
 }
 
-#info{
+#infoLogin{
     width: 300px;
     height: 100px;
     margin-left: 25px;
@@ -29,17 +40,18 @@ body{
     border-color: rgb(162,218,227);
     background-color: rgb(209,236,241);
     padding-top: 20px;
-    font-size: 17px;
+    font-size: 13.5px;
     font-weight: 400;
     text-align: center;
     color: rgb(9,65,74);
+    margin-top: -10px;
 }
 
 #input{
     padding: 25px;
 }
 
-.int1,.int2{
+.int1InLogin,.int2InLogin{
     border-width: 1.2px;
     border-radius: 5px;
     width: 300px;
@@ -50,9 +62,9 @@ body{
     margin-top: 20px;
 }
 
-.btn1{
+.btn3InLogin{
     color: rgb(1,126,132);
-    margin-left: 115px;
+    margin-left: 112px;
 }
 
 #signin{
@@ -69,6 +81,7 @@ body{
 
 .notAcc{
     text-align: center;
-    margin-top: 15px;
+    margin-left: 65px;
+    margin-top: 20px;
     color: rgb(1,126,132);
 }

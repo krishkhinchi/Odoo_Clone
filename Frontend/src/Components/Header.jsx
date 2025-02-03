@@ -1,8 +1,14 @@
 import React from "react";
 import "../Style/Header.css"
 import logo from "../img/odoo_logo.webp"
+import Login from "./Login";
+import PageNotFound from "./PageNotFound";
+import { useNavigate } from "react-router-dom";
 
-function Header() {
+export default function Header() {
+
+const Navigate = useNavigate();
+
   return (
     <div className="main">
       <div id="header">
@@ -14,11 +20,9 @@ function Header() {
           <h3 className="h4">Pricing</h3>
           <h3 className="h5">Contact</h3>
         </nav>
-        <button className="Signin">Sign in</button>
-        <button className="Tryitfree">Try it free</button>
+        <button className="Signin" onClick={()=>Navigate("/login")}>Sign in</button>
+        <button className="Tryitfree" onClick={()=>Navigate("/error")}>Try it free</button>
       </div>
     </div>
   );
-}
-
-export default Header;
+};

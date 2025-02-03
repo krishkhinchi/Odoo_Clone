@@ -1,0 +1,15 @@
+#setFooterinHome{
+    padding-top: 1000px;
+}
+
+#setHeaderinHome{
+    margin-top: 0px;
+}
+
+#setMaininHome{
+    margin-top: -30px;
+}
+
+#BodyHome{
+    overflow-x: hidden;
+}

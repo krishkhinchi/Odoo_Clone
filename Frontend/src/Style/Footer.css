@@ -1,0 +1,168 @@
+#footerTop{
+    width: 1159px;
+    height: 450px;
+    background-color: rgb(37,39,51);
+}
+
+.odoologo3{
+    width: 90px;
+    height: 60px;
+    padding-top: 30px;
+    margin-left: 550px;
+}
+
+#footerMain{
+    width: 900px;
+    height: 300px;
+    margin-top: 30px;
+    margin-left: 125px;
+    /* border-width: 1px; */
+    display: flex;
+}
+
+.footerMain1{
+    width: 190px;
+    height: 300px;
+    /* border-width: 1px; */
+}
+
+.footerMain2{
+    width: 180px;
+    height: 300px;
+    /* border-width: 1px; */
+}
+
+.footerMain3{
+    width: 190px;
+    height: 300px;
+    /* border-width: 1px; */
+}
+
+.footerMain4{
+    width: 340px;
+    height: 300px;
+    /* border-width: 1px; */
+}
+
+#footerEnd{
+    display: flex;
+    width: 1159px;
+    height: 50px;
+    color: white;
+    padding-left: 430px;
+    padding-top: 15px;
+    font-weight: 300;
+    background-color: rgb(26,28,36);
+}
+
+.footerName1{
+    padding-left: 8px;
+    font-weight: 700;
+    padding-top: 0px;
+}
+
+.mainFooterHeading1,.mainFooterHeading3,.mainFooterHeading4{
+    color: white;
+    font-size: large;
+    font-weight: 700;
+}
+
+.subFooterHeading1,.subFooterHeading2,.subFooterHeading3,.subFooterHeading4,.subFooterHeading5,.subFooterHeading6,.subFooterHeading7,.subFooterHeading8,.subFooterHeading9,.subFooterHeading10{
+    padding-top: 12px;
+    color: rgb(173, 181, 189);
+    font-size: medium;
+    font-weight: 450;
+}
+
+.mainFooterHeading2{
+    padding-top: 20px;
+    color: white;
+    font-size: large;
+    font-weight: 700;
+}
+
+.USA_Flag{
+    width: 15px;
+    height: 15px;
+    margin-top: 10px;
+}
+
+.subFooterComponent1{
+    display: flex;
+}
+
+.languageFooter{
+    margin-top: 6px;
+    margin-left: 5px;
+    width: 73px;
+    background-color: rgb(37,39,51);
+    color: rgb(173, 181, 189);
+}
+
+.footerLine{
+    color: rgb(173, 181, 189);
+    font-weight: 100;
+}
+
+.subFooterHeading11,.subFooterHeading12{
+    padding-top: 20px;
+    color: rgb(173, 181, 189);
+    font-size: medium;
+    font-weight: 450;
+}
+
+#SocialMediaFooter{
+    width: 340px;
+    height: 20px;
+    display: flex;
+    margin-top: 20px;
+    /* border-width: 1px; */
+    margin-left: -7px;
+}
+
+.facebook{
+    width: 20px;
+    height: 18px;
+    margin-left: 0px;
+} 
+
+.x{
+    margin-left: 25px;
+    width: 20px;
+    height: 20px;
+}
+
+.linkedin{
+    margin-left: 25px;
+    width: 20px;
+    height: 20px;
+}
+
+.github{
+    margin-top: 2.2px;
+    margin-left: 17px;
+    width: 29px;
+    height: 16.5px;
+}
+
+.instagram{
+    margin-left: 18px;
+}
+
+.youtube{
+    margin-top: 2.7px;
+    margin-left: 27px;
+    width: 20px;
+    height: 15px;
+}
+
+.call{
+    margin-left: 30px;
+}
+
+.whatsapp{
+    margin-left: 30px;
+    margin-top: 1.5px;
+    width: 17px;
+    height: 17px;
+}

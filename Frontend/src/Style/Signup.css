@@ -1,0 +1,82 @@
+body{
+    background-color: rgb(255, 255, 255);
+}
+
+#imgs1InSignup{
+    display: flex;
+}
+
+.arrow1InSignup{
+    width: 20px;
+    height: 20px;
+    margin-top: 10px;
+    margin-left: 10px;
+    opacity: 20%;
+}
+
+#Signup{
+    width: 350px;
+    height: 630px;
+    background-color: rgb(255, 255, 255);
+    margin-left: 400px;
+    margin-top: 20px;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.4);
+    border-width: 1px;
+}
+
+.odoologo3InSignup{
+    width: 100px;
+    height: 100px;
+    margin-left: 90px;
+    margin-top: -10px;
+}
+
+#infoSignup{
+    width: 300px;
+    height: 100px;
+    margin-left: 25px;
+    border-radius: 10px;
+    border-width: 1.2px;
+    border-color: rgb(162,218,227);
+    background-color: rgb(209,236,241);
+    padding-top: 20px;
+    font-size: 13.5px;
+    font-weight: 400;
+    text-align: center;
+    color: rgb(9,65,74);
+    margin-top: -10px;
+}
+
+#inputInSignup{
+    padding: 25px;
+}
+
+.int1InSignup,.int2InSignup{
+    border-width: 1.2px;
+    border-radius: 5px;
+    width: 300px;
+    height: 40px;
+}
+
+.NameInSignup,.PasswordInSignup,.CPInSignup{
+    margin-top: 10px;
+}
+
+#onSignup{
+    background-color: rgb(162,70,137);
+    color: white;
+    width: 300px;
+    height: 40px;
+    margin-top: 40px;
+    text-align: center;
+    padding-top: 7px;
+    border-radius: 5px;
+    font-weight: 500;
+}
+
+.haveAcc{
+    text-align: center;
+    margin-left: 55px;
+    margin-top: 20px;
+    color: rgb(1,126,132);
+}

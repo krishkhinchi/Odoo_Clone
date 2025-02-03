@@ -1,0 +1,27 @@
+#fixHeader1{
+    position: fixed;
+    margin-top: -60px;
+}
+
+#Section1{
+    width: 1174px;
+    height: 220px;
+    margin-top: 60px;
+    background-color: rgb(112,74,102);
+    text-align: center;
+}
+
+.subsecHeader1{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    font-size: 57px;
+    padding-top: 40px;
+}
+
+.subsecHeader2{
+    color: white;
+    font-weight: 600;
+    font-size: 20px;
+    padding-top: 0px;
+}

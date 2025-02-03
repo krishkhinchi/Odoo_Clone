@@ -1,15 +1,15 @@
-#Heading{
-    background-color: white;
-    width: 800px;
-    height: 400px;
-    margin-left: 200px;
+#HeadinginMain{
+    background-color: #ffffff;
+    width: 1160px;
+    height: 450px;
+    margin-left: 0px;
     margin-top: 100px;
-    padding-top: 30px;
-    position: absolute;
+    padding-top: 20px;
+    position: relative;
     z-index: -1;
 }
 
-.line1{
+.line1InMain{
     text-align: center;
     line-height: 1;
     font-size: 75px;
@@ -18,11 +18,12 @@
     rotate: -1deg;
 }
 
-#style{
+#styleInMain{
     position: relative;
+    margin-left: 170px;
 }
 
-.Style1{
+.Style1InMain{
     margin-left: 200px;
     margin-top: 30px;
     width: 400px;
@@ -33,7 +34,7 @@
     rotate: -2deg;
 }
 
-.Style2{
+.Style2InMain{
     margin-left: 175px;
     margin-top: -6px;
     width: 450px;
@@ -44,7 +45,7 @@
     /* rotate: -1deg; */
 }
 
-.Style3{
+.Style3InMain{
     margin-left: 200px;
     margin-top: -8px;
     width: 400px;
@@ -55,7 +56,7 @@
     rotate: -3deg;
 }
 
-.line2{
+.line2InMain{
     text-align: center;
     line-height: 1;
     font-size: 75px;
@@ -64,10 +65,10 @@
     rotate: -1deg;
     position: absolute;
     margin-top: -80px;
-    padding-left: 175px;
+    padding-left: 340px;
 }
 
-.line3{
+.line3InMain{
     text-align: center;
     line-height: 1;
     font-size: 40px;
@@ -81,8 +82,8 @@
     text-align: center;
 }
 
-.btn1{
-    background-color: rgb(162,70,137);
+.btn1inMain{
+    background-color: rgb(113,75,103);
     color: white;
     margin-top: 40px;
     border-radius: 3px;
@@ -91,13 +92,413 @@
     font-weight: 700;
 }
 
-.btn2{
+.btn2inMain{
     background-color: rgb(215, 214, 214);
-    color: rgb(162,70,137);
+    color: rgb(113,75,103);
     margin-top: 50px;
     border-radius: 3px;
     width: 200px;
     height: 50px;
     margin-left: 20px;
     font-weight: 700;
+}
+
+.Style4InMain{
+    background-color: rgb(27,182,249);
+    border-radius: 100px;
+    width: 150px;
+    height: 10px;
+    margin-left: 730px;
+    rotate: -3deg;
+}
+
+#Arrow1InMain{
+    margin-left: 880px;
+    margin-top: -90px;
+    rotate: -10deg;
+}
+
+.line4InMain{
+    text-align: center;
+    line-height: 1.5;
+    font-size: 22px;
+    font-family: cursive;
+    font-weight: 640;
+    rotate: -12deg;
+    color: rgb(113,75,103);
+    margin-top: 5px;
+    margin-left: 800px;
+    position: relative;
+}
+
+#bgGrayInMain1{
+    margin-top: 30px;
+    position: relative;
+    border-radius: 200%;
+    margin-left: -170px;
+    z-index: -2;
+    width: 1500px;
+    height: 700px;
+    padding-top: 70px;
+    background-color: rgb(243,244,246);
+    box-shadow: -1px -1px 0px rgba(0,0,0,0);
+    /* box-shadow: -1px -1px 20px 0px rgba(0,0,0,0.2); */
+}
+
+.eventOdooInMain{
+    width: 550px;
+    height: 35px;
+    border-radius: 100px;
+    border-width: 1px;
+    background-color: #ffffff;
+    position: absolute;
+    z-index: 3;
+    margin-left: 500px;
+    display: flex;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.15);
+}
+
+/* .eventOdooInMain:hover{
+    margin-top: -10px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0,1);
+} */
+
+.IndiaFlag{
+    width: 25px;
+    height: 15px;
+    margin-top: 10px;
+    margin-left: 10px;
+    border-radius: 100px;
+}
+
+.eventcityInMain{
+    font-weight: 500;
+    padding-left: 10px;
+    padding-top: 5px;
+}
+
+.eventdateInMain{
+    padding-left: 10px;
+    padding-top: 5px;
+
+}
+
+.btn3inMain{
+    color: rgb(1,126,132);
+    font-weight: 500;
+    padding-left: 50px;
+    padding-top: 0px;
+}
+
+/* #Arrow2InAppsMain{
+    width: 20px;
+    height: 20px;
+    background-color: #f9b327;
+    margin-top: 100px;   
+} */
+
+#allAppInMain{
+    width: 990px;
+    height: 500px;
+    /* background-color: #ffffff; */
+    margin-left: 270px;
+    margin-top: 50px;
+}
+
+#appLine1,#appLine2,#appLine3,#appLine4{
+    display: flex;
+}
+
+.appInMain1,.appInMain7,.appInMain13,.appInMain19{
+    width: 90px;
+    height: 90px;
+    background-color: #ffffff;
+    box-shadow: -1px -1px 10px 1px rgba(0,0,0,0.3);
+}
+
+.appInMain2,.appInMain3,.appInMain4,.appInMain5,.appInMain6,.appInMain8,.appInMain9,.appInMain10,.appInMain11,.appInMain12,.appInMain14,.appInMain15,.appInMain16,.appInMain17,.appInMain18,.appInMain20,.appInMain21,.appInMain22,.appInMain23,.appInMain24{
+    margin-left: 90px;
+    width: 90px;
+    height: 90px;
+    background-color: #ffffff;
+    box-shadow: -1px -1px 10px 1px rgba(0,0,0,0.3);
+}
+
+#appNameLine1,#appNameLine2,#appNameLine3,#appNameLine4{
+    display: flex;
+}
+
+.appNameInMain1,.appNameInMain7,.appNameInMain13,.appNameInMain19{
+    width: 90px;
+    height: 30px;
+    font-weight: 500;
+    text-align: center;
+    padding-top: 10px;
+    /* background-color: aqua; */
+}
+
+.appNameInMain2,.appNameInMain3,.appNameInMain4,.appNameInMain5,.appNameInMain6,.appNameInMain8,.appNameInMain9,.appNameInMain10,.appNameInMain11,.appNameInMain12,.appNameInMain14,.appNameInMain15,.appNameInMain16,.appNameInMain17,.appNameInMain18,.appNameInMain20,.appNameInMain21,.appNameInMain22,.appNameInMain23,.appNameInMain24{
+    font-weight: 500;
+    text-align: center;
+    width: 90px;
+    height: 30px;
+    margin-left: 90px;
+    padding-top: 10px;
+    /* background-color: aqua; */
+}
+
+#appLine2,#appLine3,#appLine4{
+    margin-top: 60px;
+}
+
+.appImgInMain1{
+    width: 80px;
+    height: 80px;
+    padding-top: 10px;
+    padding-left: 10px;
+}
+
+.appNameInMain6{
+    width: 100px;
+    margin-left: 85px;
+    margin-right: -5px;
+}
+
+.appNameInMain8{
+    width: 100px;
+    margin-left: 85px;
+}
+
+.appNameInMain9{
+    margin-left: 85px;
+}
+
+.appNameInMain13{
+    width: 100px;
+    margin-left: -5px;
+}
+
+.appNameInMain14{
+    margin-left: 85px;
+}
+
+.appNameInMain17{
+    width: 140px;
+    margin-left: 65px;
+    margin-right: -35px;
+}
+
+.appNameInMain18{
+    width: 120px;
+    margin-left: 85px;
+    margin-right: -35px;
+}
+
+.appNameInMain21{
+    width: 110px;
+    margin-left: 80px;
+    margin-right: -15px;
+}
+
+.appNameInMain22{
+    margin-left: 95px;
+}
+
+#curlyInMain1{
+    margin-left: 315px;
+    margin-top: 170px;
+    width: 550px;
+    height: 50px;
+    display: none;
+}
+
+.curly{
+    width: 550px;
+    height: 23px;
+}
+
+.nameinCurlyInMain{
+    text-align: center;
+    color: rgb(113,75,103);
+    font-family: cursive;
+    font-weight: 600;
+    font-size: 25px;
+}
+
+#bgGrayInMain2{
+    margin-top: -620px;
+    position: relative;
+    margin-left: -170px;
+    z-index: -3;
+    width: 1500px;
+    height: 2000px;
+    background-color: rgb(243,244,246);
+    padding-top: 70px;
+}
+
+#toggleBodyInMain{
+    margin-top: 180px;
+    width: 350px;
+    height: 100px;
+    display: flex;
+}
+
+.designToggle1{
+    margin-left: 30px;
+    width: 80px;
+    height: 80px;
+}
+
+/* Working in Toggle Button */
+#onlyToggleInMain{
+    width: 60px;
+    height: 30px;
+    background-color: white;
+    margin-top: 50px;
+    margin-left: -30px;
+    border-radius: 100px;
+    border-width: 5px;
+    border-color: rgb(210,202,210);
+}
+
+.borderToggle{
+    border-radius: 100px;
+    width: 50px;
+    height: 20px;
+    /* background-color: aqua; */
+}
+
+.CircleToggle{
+    width: 16.5px;
+    height: 16.5px;
+    border-radius: 100%;
+    margin-left: 2px;
+    margin-top: 2px;
+    background-color: rgb(210,202,210);
+}
+
+.headingToggleInMain1{
+    font-weight: 700;
+    text-align: center;
+    margin-left: 15px;
+    padding-top: 30px;
+    color: rgb(113,75,103);
+}
+
+#viewAllApps{
+    display: flex;
+    font-weight: 700;
+    color: rgb(1,126,132);
+    margin-top: 210px;
+    margin-left: 590px;
+}
+
+.arrowForviewAllApps{
+    margin-left: 10px;
+    margin-top: 10px;
+    width: 40px;
+    height: 50px;
+}
+
+#paragraphInMain1{ 
+    width: 800px;
+    height: 120px;
+    background-color: rgb(243,244,246);
+    text-align: center;
+    position: absolute;
+    margin-top: 70px;
+    margin-left: 170px;
+    z-index: -1;
+}
+
+.line5InMain{
+    font-weight: 610;
+    font-size: 27px;
+}
+
+.line6InMain,.line7InMain{
+    font-weight: 400;
+    font-size: 24px;
+}
+
+#paragraphInMain2{ 
+    width: 900px;
+    height: 120px;
+    background-color: rgb(243,244,246);
+    text-align: center;
+    position: absolute;
+    margin-top: 230px;
+    margin-left: 120px;
+    z-index: -1;
+}
+
+#designForWhiteSectionInMain{
+    width: 200px;
+    height: 100px;
+    margin-top: 1000px;
+    margin-left: 700px;
+    position: absolute;
+}
+
+.reviewHappyEmoji_InWhiteSectionInMain{
+    width: 60px;
+    height: 40px;
+    position: absolute;
+    margin-left: 70px;
+    margin-top: -30px;
+}
+
+.reviewIn_designForWhiteSectionInMain{
+    margin-top: -80px;
+    margin-left: 60px;
+    width: 500px;
+    height: 80px;
+    position: absolute;
+    background-color: #ffffff;
+    border-radius: 100px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.15);
+}
+
+.reviewPhoto_InWhiteSectionInMain{
+    width: 70px;
+    height: 70px;
+    border-radius: 100px;
+    position: absolute;
+    margin-top: -110px;
+    margin-left: 30px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.15);
+}
+
+.line1InReviewInWhiteSectionInMain{
+    font-weight: 500;
+    font-size: 18px;
+    text-align: center;
+    margin-top: 15px;
+}
+
+.line2InReviewInWhiteSectionInMain{
+    margin-left: 55px;
+}
+
+#headingInWhiteSectionInMain{
+    font-weight: 500;
+    font-size: 60px;
+    /* text-align: center; */
+    font-family: cursive;
+    padding-top: 150px;
+    margin-left: 100px;
+}
+
+#WhiteSectionInMain{
+    margin-top: 1100px;
+    width: 1200px;
+    height: 600px;
+    background-color: #ffffff;
+    margin-left: 300px;
+    border-top-left-radius: 1000px;
+    border-bottom-left-radius: 1000px;
+}
+
+.video1_InWhiteSectionInMain{
+    /* width: 100px; */
 }

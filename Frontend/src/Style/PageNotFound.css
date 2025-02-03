@@ -1,0 +1,18 @@
+#error404{
+    width: 600px;
+    height: 300px;
+    margin-left: 255px;
+    margin-top: 70px;
+}
+
+#error404Button{
+    background-color: rgb(162,70,137);
+    border-radius: 5px;
+    padding-left: 50px;
+    padding-right: 50px;
+    color: aliceblue;
+    font-size: 25px;
+    font-weight: 700;
+    margin-left: 430px;
+    margin-top: 70px;
+}
