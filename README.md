@@ -1,4 +1,4 @@
 # Odoo_Clone
 
-npm start
-npx nodemon
+1) npm start
+2) 2) px nodemon
