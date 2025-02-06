@@ -2,7 +2,7 @@ body{
     background-color: rgb(255, 255, 255);
 }
 
-#imgs1{
+#img1InLogin{
     display: flex;
 }
 
@@ -27,7 +27,7 @@ body{
 .odoologo2{
     width: 100px;
     height: 100px;
-    margin-left: 90px;
+    margin-left: 120px;
     margin-top: -10px;
 }
 

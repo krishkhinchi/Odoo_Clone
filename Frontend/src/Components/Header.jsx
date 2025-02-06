@@ -20,7 +20,7 @@ const Navigate = useNavigate();
           <h3 className="h4">Pricing</h3>
           <h3 className="h5">Contact</h3>
         </nav>
-        <button className="Signin" onClick={()=>Navigate("/login")}>Sign in</button>
+        <button className="Signin" onClick={()=>Navigate("/")}>Sign in</button>
         <button className="Tryitfree" onClick={()=>Navigate("/error")}>Try it free</button>
       </div>
     </div>

@@ -459,7 +459,7 @@
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.15);
 }
 
-.reviewPhoto_InWhiteSectionInMain{
+.reviewProfile_InWhiteSectionInMain{
     width: 70px;
     height: 70px;
     border-radius: 100px;
@@ -485,7 +485,7 @@
     font-size: 60px;
     /* text-align: center; */
     font-family: cursive;
-    padding-top: 150px;
+    padding-top: 100px;
     margin-left: 100px;
 }
 
@@ -499,6 +499,18 @@
     border-bottom-left-radius: 1000px;
 }
 
-.video1_InWhiteSectionInMain{
-    /* width: 100px; */
+#video1InWhiteSectionInMain{
+    width: 720px;
+    height: 410px;
+    padding-left: 7px;
+    padding-top: 7px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    margin-left: 150px;
+    margin-top: 50px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.15);
+}
+
+.videoInMain1{
+    border-radius: 7px;
 }

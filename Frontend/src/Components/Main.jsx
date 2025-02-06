@@ -15,7 +15,7 @@ import happy_emoji from "../img/happy_emoji.png"
 import bgYellow from "../img/bg_yellow_inMain1.svg"
 import designToggle1 from "../img/designToggle1.png"
 
-import video_homepage1 from "../video/video_homepage.mp4"
+import video from "../video/video_homepage.mp4"
 
 //All Apps Img
 import Accounting from "../img/Bundle/Accounting.svg"
@@ -283,17 +283,17 @@ export default function Main() {
                 - Krish Khinchi, former CEO of SAP
               </h1>
             </div>
-            <img className="reviewPhoto_InWhiteSectionInMain" src={Krish} alt="photo" />
+            <img className="reviewProfile_InWhiteSectionInMain" src={Krish} alt="photo" />
           </div>
           <div id="WhiteSectionInMain">
             <div id="headingInWhiteSectionInMain">
               <h1>Level up your quality of work</h1>
             </div>
-            {/* <div>
-            <video width="600" controls>
-              <source src="../video/video_homepage.mp4" type="video/mp4" />
+            <div id="video1InWhiteSectionInMain">
+            <video className="videoInMain1" autoPlay muted loop width="705" controls >
+              <source src={video} type="video/mp4" />
             </video>
-            </div> */}
+            </div>
           </div>
         </div>
       </div>
