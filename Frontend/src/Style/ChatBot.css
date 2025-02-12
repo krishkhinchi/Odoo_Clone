@@ -1,0 +1,227 @@
+#chatSectionInChatBot{
+    width: 300px;
+    height: 400px;
+    z-index: 1;
+    position: fixed;
+    margin-top: 130px;
+    margin-left: 840px;
+    border-radius: 10px;
+    background-color: #ffffff;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+    display: none;
+}
+
+.chatbotTitle{
+    width: 300px;
+    height: 40px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 3px;
+    border-bottom-left-radius: 3px;
+    background-color: rgb(162,70,137);
+    padding: 2px;
+    padding-left: 10px;
+    display: flex;
+}
+
+.borderProfileImgInChatbotTitle{
+    width: 30px;
+    height: 30px;
+    border-radius: 100px;
+    background-color: #ffffff;
+    padding-top: 0.7px;
+    padding-left: 1px;
+    margin-top: 3px;
+}
+
+.adminProfileImgInChatbotTitle{
+    width: 28px;
+    height: 28px;
+    border-radius: 100px;
+}
+
+.handleAdminNameInChatbotTitle{
+    width: 200px;
+    height: 40px;
+    margin-top: -2px;
+    /* background-color: aqua; */
+}
+
+.adminNameInChatbotTitle{
+    margin-left: 9px;
+    margin-top: 7px;
+    font-size: 17px;
+    font-weight: 500;
+    color: #ffffff;
+}
+
+.minimizeImgInChatbotTitle{
+    width: 20px;
+    height: 15px;
+    margin-top: 11px;
+    margin-left: 5px;
+    opacity: 30%;
+}
+
+.cancelImgInChatbotTitle{
+    width: 20px;
+    height: 20px;
+    margin-top: 8px;
+    margin-left: 7px;
+    opacity: 30%;
+}
+
+.minimizeImgInChatbotTitle:hover,.cancelImgInChatbotTitle:hover{
+    opacity: 100%;
+}
+
+.chatbotBody{
+    width: 300px;
+    height: 310px;
+    /* border-width: 1px; */
+}
+
+.adminProfileImgInChatbotBody{
+    width: 30px;
+    height: 30px;
+    margin-top: 15px;
+    margin-left: 15px;
+    border-radius: 5px;
+}
+
+.adminNameInChatbotBody{
+    margin-top: 10px;
+    margin-left: 5px;
+    font-size: 15px;
+    font-weight: 500;
+}
+
+.timeInChatbotBody{
+    font-size: 10px;
+    margin-top: 16px;
+    margin-left: 7px;
+    color: rgb(152,158,166);
+}
+
+.messageSectionInChatbotBody{
+    width: 230px;
+    height: 30px;
+    margin-left: 51px;
+    margin-top: -10px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    background-color: rgb(226,243,246);
+    font-size: 10.5px;
+    padding-top: 6px;
+    text-align: center;
+    border-width: 1px;
+    border-color: rgb(187,227,234);
+}
+
+#typeFileInChatbotTypebar{
+    margin-top: -30px;
+    margin-left: 10px;
+    display: none;
+}
+
+.mainTypebarInChatbotTypebar{
+    width: 280px;
+    height: 30px;
+    margin-left: 10px;
+    margin-top: 10px;
+    background-color: #ffffff;
+    border-width: 1px;
+    border-color: rgb(187,227,234);
+    border-radius: 5px;
+    display: flex;
+}
+
+.plusIconInChatbotTypebar{
+    width: 17px;
+    height: 17px;
+    margin-top: 6px;
+    margin-left: 5px;
+    opacity: 30%;
+}
+
+.plusIconInChatbotTypebar:hover{
+    opacity: 100%;
+    transition: 0.1s;
+}
+
+.inputInChatbotTypebar{
+    width: 190px;
+    height: 29px;
+    margin-left: 5px;
+    background-color: #ffffff;
+}
+
+.smileIconInChatbotTypebar{
+    width: 17px;
+    height: 17px;
+    margin-top: 6px;
+    margin-left: 10px;
+    opacity: 30%;
+}
+
+.smileIconInChatbotTypebar:hover{
+    opacity: 100%;
+    transition: 0.1s;
+}
+
+.sendIconInChatbotTypebar{
+    width: 17px;
+    height: 17px;
+    margin-top: 6px;
+    margin-left: 10px;
+    opacity: 30%;
+}
+
+.sendIconInChatbotTypebar:hover{
+    opacity: 100%;
+    transition: 0.1s;
+}
+
+#circleInChatBot{
+    display: block;
+    width: 50px;
+    height: 50px;
+    position: fixed;
+    border-radius: 100px;
+    margin-top: 480px;
+    margin-left: 1090px;
+    background-color: rgb(162,70,137);
+    box-shadow: 0px 0px 6px rgba(0, 0, 0, 0.5);
+
+    background: rgba(255, 255, 255, 0.25);
+    box-shadow: 0 1px 10px 0 rgba(31, 38, 135, 0.37);
+    backdrop-filter: blur(8px);
+    -webkit-backdrop-filter: blur(4px);
+    border-radius: 10px;
+    border: 1px solid rgba(255, 255, 255, 0.18);
+}
+
+.commentIconInChatBot{
+    width: 35px;
+    height: 35px;
+    margin-top: 7px;
+    margin-left: 7px;
+    opacity: 50%;
+}
+
+#circleToHideInChatBot{
+    width: 50px;
+    height: 50px;
+    position: fixed;
+    margin-top: 480px;
+    margin-left: 1090px;
+    border-radius: 10px;
+    display: none;
+    box-shadow: 0px 0px 6px rgba(0, 0, 0, 0.5);
+}
+
+.imgInCircleToHideInChatBot{
+    border-radius: 10px;
+    opacity: 75%;
+}

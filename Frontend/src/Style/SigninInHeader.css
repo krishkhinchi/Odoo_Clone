@@ -1,0 +1,11 @@
+.Signin {
+    margin-left: 75px;
+    font-family: sans-serif, Helvetica;
+    font-size: 14.3px;
+    font-weight: 550;
+    color: rgb(80, 80, 80);
+}
+
+.Signin:hover{
+    color: rgb(0, 0, 0);
+}

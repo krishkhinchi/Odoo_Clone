@@ -4,7 +4,6 @@ import { useState } from "react";
 import "../Style/Login.css";
 import arrow from "../img/arrow.png";
 import logo from "../img/odoo_logo.webp";
-// import Reset_password from "./Reset_password";
 import { ToastContainer, toast } from "react-toastify";
 
 import { useNavigate } from "react-router-dom";
@@ -21,6 +20,16 @@ export default function Login() {
     Navigate('/Signup')
   };
 
+  const handleBackToHome = () => {
+    document.title = "Odoo" 
+    Navigate("/")
+  }
+
+  const handleGoToResetPassword = () => {
+    document.title = "Odoo - Reset Password"
+    Navigate("/Reset_password") 
+  }
+
   const handleSubmit = async (e) => {
     e.preventDefault();
     setShowToast(true);
@@ -35,9 +44,9 @@ export default function Login() {
         if (showToast) {
           toast(response.data.message, { autoClose: 3000 });
         }
-        if (response.data.message === "Login Successfull") {
+        if (response.data.message === "Login Successfully") {
           document.title = "Odoo - Home";
-          Navigate("/Home");
+          Navigate("/");
         }
       }
     } catch (err) {
@@ -50,6 +59,12 @@ export default function Login() {
       <form onSubmit={handleSubmit}>
         <div id="login">
           <div id="img1InLogin">
+            <img
+              className="arrow1InLogin"
+              onClick={handleBackToHome}
+              src={arrow}
+              alt="arrow"
+            />
             <img className="odoologo2" src={logo} alt="logo" />
           </div>
           <div id="infoLogin">
@@ -70,7 +85,7 @@ export default function Login() {
               <label className="password">Password: </label>
               <button
                 className="btn3InLogin"
-                onClick={() => Navigate("/Reset_password")}
+                onClick={handleGoToResetPassword}
               >
                 Reset Password
               </button>
@@ -93,7 +108,7 @@ export default function Login() {
           </div>
         </div>
       </form>
-      <ToastContainer />
+      <ToastContainer/>
     </>
   );
 }

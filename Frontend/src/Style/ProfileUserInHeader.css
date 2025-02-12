@@ -1,0 +1,88 @@
+#profileUserInHeader{
+    width: 20px;
+    height: 20px;
+    opacity: 60%;
+    margin-left: 100px;
+}
+
+#profileUserInHeader:hover{
+    opacity: 100%;
+}
+
+#afterClickOnProfileUserInHeader{
+    width: 150px;
+    height: 120px;
+    margin-top: 60px;
+    margin-left: -150px;
+    border-radius: 7px;
+    background-color: #ffffff;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+    display: none;
+}
+
+#div1InProfileUserInHeader{
+    display: flex;
+}
+
+#div1InProfileUserInHeader:hover{
+    background-color: darkgray;
+}
+
+.idcardInProfileUserInHeader{
+    width: 30px;
+    height: 30px;
+    margin-top: 10px;
+    margin-left: 5px;
+}
+
+.accountInProfileUserInHeader{
+    margin-top: 10px;
+    margin-left: 2px;
+}
+
+#div2InProfileUserInHeader{
+    display: flex;
+    margin-top: 10px;
+}
+
+#div2InProfileUserInHeader:hover{
+    background-color: darkgray;
+}
+
+.serverInProfileUserInHeader{
+    width: 20px;
+    height: 20px;
+    margin-left: 10px;
+}
+
+.databasesInProfileUserInHeader{
+    margin-top: -3px;
+    margin-left: 7px;
+}
+
+#thinLineInProfileUserInHeader{
+    width: 150px;
+    height: 1px;
+    margin-top: 15px;
+    background-color: black;
+}
+
+#div3InProfileUserInHeader{
+    display: flex;
+}
+
+#div3InProfileUserInHeader:hover{
+    background-color: darkgray;
+}
+
+.logoutInProfileUserInHeader{
+    width: 20px;
+    height: 20px;
+    margin-left: 10px;
+    margin-top: 5px;
+}
+
+.logoutACInProfileUserInHeader{
+    margin-left: 8px;
+    margin-top: 4px;
+}

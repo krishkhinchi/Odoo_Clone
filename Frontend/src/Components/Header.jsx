@@ -1,28 +1,30 @@
 import React from "react";
-import "../Style/Header.css"
-import logo from "../img/odoo_logo.webp"
-import Login from "./Login";
-import PageNotFound from "./PageNotFound";
+import "../Style/Header.css";
 import { useNavigate } from "react-router-dom";
 
-export default function Header() {
+import logo from "../img/odoo_logo.webp";
+import SigninInHeader from "./SigninInHeader";
+import ProfileUserInHeader from "./ProfileUserInHeader";
 
+export default function Header() {
 const Navigate = useNavigate();
+//  document.title = "Odoo - Home" 
 
   return (
     <div className="main">
       <div id="header">
         <img id="odoologo" src={logo} alt="logo" />
         <nav id="navbar">
-          <h3 className="h1">Apps</h3>
-          <h3 className="h2">Industries</h3>
-          <h3 className="h3">Community</h3>
-          <h3 className="h4">Pricing</h3>
-          <h3 className="h5">Contact</h3>
+          <button className="h1">Apps</button>
+          <button className="h2">Industries</button>
+          <button className="h3">Community</button>
+          <button className="h4">Pricing</button>
+          <button className="h5">Contact</button>
         </nav>
-        <button className="Signin" onClick={()=>Navigate("/")}>Sign in</button>
+        {(document.title === "Odoo - Home" ) ? <ProfileUserInHeader/> : <SigninInHeader/>}
         <button className="Tryitfree" onClick={()=>Navigate("/error")}>Try it free</button>
       </div>
+      <div id="blurInHeader"></div>
     </div>
   );
 };

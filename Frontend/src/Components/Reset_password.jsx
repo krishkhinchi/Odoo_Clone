@@ -1,14 +1,19 @@
 import React from "react";
 import { useState } from "react";
 import "../Style/Reset_password.css";
-import arrow from "../img/arrow.png"
+import arrow from "../img/arrow.png";
 import logo from "../img/odoo_logo.webp";
 import { useNavigate } from "react-router-dom";
 
 export default function Reset_password() {
-    const Navigate = useNavigate();
-    const [email, setEmail] = useState("");
-    
+  const Navigate = useNavigate();
+  const [email, setEmail] = useState("");
+
+  const handleBackToLogin = () => {
+    document.title = "Odoo - Login";
+    Navigate("/Login");
+  };
+
   return (
     <>
       <form>
@@ -16,7 +21,7 @@ export default function Reset_password() {
           <div id="imgs1InResetPassword">
             <img
               className="arrow1InResetPassword"
-              onClick={() => Navigate("/")}
+              onClick={handleBackToLogin}
               src={arrow}
               alt="arrow"
             />
@@ -36,7 +41,7 @@ export default function Reset_password() {
                 RESET PASSWORD
               </button>
             </div>
-            <button className="BackToLogin" onClick={() => Navigate("/")}>
+            <button className="BackToLogin" onClick={() => Navigate("/Login")}>
               Back to Login
             </button>
           </div>

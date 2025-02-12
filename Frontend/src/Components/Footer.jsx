@@ -75,21 +75,24 @@ export default function Footer() {
                   <option value="русский язык">русский язык</option>
                   <option value="Slovenský jazyk">Slovenský jazyk</option>
                   <option value="slovenščina">slovenščina</option>
-                  <option value="Español (América Latina)">Español (América Latina)</option>
+                  <option value="Español (América Latina)">
+                    Español (América Latina)
+                  </option>
                   <option value="Español">Español</option>
                   <option value="ภาษาไทย">ภาษาไทย</option>
                 </select>
               </div>
-              <p className="footerLine">___________________________________________________</p>
+              <p className="footerLine">
+                ___________________________________________________
+              </p>
               <h2 className="subFooterHeading11">
-              Odoo is a suite of open source business apps that
-              cover all your company needs: CRM, eCommerce, 
-              accounting, inventory, point of sale, project
-              management, etc.
+                Odoo is a suite of open source business apps that cover all your
+                company needs: CRM, eCommerce, accounting, inventory, point of
+                sale, project management, etc.
               </h2>
               <h2 className="subFooterHeading12">
-              Odoo's unique value proposition is to be at the
-              same time very easy to use and fully integrated.
+                Odoo's unique value proposition is to be at the same time very
+                easy to use and fully integrated.
               </h2>
               <div id="SocialMediaFooter">
                 <a href="https://www.facebook.com/groups/1198429161004367/">

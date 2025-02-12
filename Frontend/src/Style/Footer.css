@@ -1,6 +1,6 @@
 #footerTop{
-    width: 1159px;
-    height: 450px;
+    width: 1165px;
+    height: 440px;
     background-color: rgb(37,39,51);
 }
 
@@ -46,7 +46,7 @@
 
 #footerEnd{
     display: flex;
-    width: 1159px;
+    width: 1165px;
     height: 50px;
     color: white;
     padding-left: 430px;

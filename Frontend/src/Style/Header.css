@@ -1,85 +1,99 @@
-#header{
-    display: flex;
-    height: 60px;
-    width: 1500px;
-    position: fixed;
-    background-color: white;
-}
-  
-#odoologo{
-    margin-left: 115px;
-    width: 70px;
-    height: 70px;
-    margin-top: -6px;
-}
-  
-#navbar{
-    display: flex;
-    margin-left: 116px;
+#header {
+  display: flex;
+  height: 60px;
+  width: 1500px;
+  position: fixed;
+  z-index: 1;
+  /* background-color: white; */
 }
 
-.h1{
-    margin-left: 50px;
-    margin-top: 20px;
-    font-family: sans-serif, Helvetica;
-    font-size: 14.3px;
-    font-weight: 550;
-    color: rgb(80, 80, 80);
+#odoologo {
+  margin-left: 115px;
+  width: 70px;
+  height: 70px;
+  margin-top: -6px;
 }
 
-.h2{
-    margin-left: 45px;
-    margin-top: 20px;
-    font-family: sans-serif, Helvetica;
-    font-size: 14.3px;
-    font-weight: 550;
-    color: rgb(80, 80, 80);
+#navbar {
+  display: flex;
+  margin-left: 116px;
 }
 
-.h3{
-    margin-left: 45px;
-    margin-top: 20px;
-    font-family: sans-serif, Helvetica;
-    font-size: 14.3px;
-    font-weight: 550;
-    color: rgb(80, 80, 80);
+.h1 {
+  margin-left: 50px;
+  font-family: sans-serif, Helvetica;
+  font-size: 14.3px;
+  font-weight: 550;
+  color: rgb(80, 80, 80);
 }
 
-.h4{
-    margin-left: 45px;
-    margin-top: 20px;
-    font-family: sans-serif, Helvetica;
-    font-size: 14.3px;
-    font-weight: 550;
-    color: rgb(80, 80, 80);
+.h2 {
+  margin-left: 45px;
+  font-family: sans-serif, Helvetica;
+  font-size: 14.3px;
+  font-weight: 550;
+  color: rgb(80, 80, 80);
 }
 
-.h5{
-    margin-left: 45px;
-    margin-top: 20px;
-    font-family: sans-serif, Helvetica;
-    font-size: 14.3px;
-    font-weight: 550;
-    color: rgb(80, 80, 80);
+.h3 {
+  margin-left: 45px;
+  font-family: sans-serif, Helvetica;
+  font-size: 14.3px;
+  font-weight: 550;
+  color: rgb(80, 80, 80);
 }
 
-.Signin{
-    margin-left: 75px;
-    font-family: sans-serif, Helvetica;
-    font-size: 14.3px;
-    font-weight: 550;
-    color: rgb(80, 80, 80);
+.h4 {
+  margin-left: 45px;
+  font-family: sans-serif, Helvetica;
+  font-size: 14.3px;
+  font-weight: 550;
+  color: rgb(80, 80, 80);
 }
 
-.Tryitfree{
-    margin-left: 20px;
-    background-color: rgb(113,75,103);
-    margin-top: 13px;
-    margin-bottom: 13px;
-    border-radius: 5px;
-    padding-left: 15px;
-    padding-right: 15px;
-    color: aliceblue;
-    font-size: 12px;
-    font-weight: 700;
+.h5 {
+  margin-left: 45px;
+  font-family: sans-serif, Helvetica;
+  font-size: 14.3px;
+  font-weight: 550;
+  color: rgb(80, 80, 80);
+}
+
+.h1:hover,
+.h2:hover,
+.h3:hover,
+.h4:hover,
+.h5:hover{
+  color: rgb(0, 0, 0);
+}
+
+.Tryitfree {
+  margin-left: 20px;
+  background-color: rgb(113, 75, 103);
+  margin-top: 13px;
+  margin-bottom: 13px;
+  border-radius: 5px;
+  padding-left: 15px;
+  padding-right: 15px;
+  color: aliceblue;
+  font-size: 12px;
+  font-weight: 700;
+}
+
+.Tryitfree:hover {
+  background-color: rgb(162, 70, 137);
+}
+
+#blurInHeader {
+  height: 60px;
+  width: 1165px;
+  position: fixed;
+
+  background: rgba(255, 255, 255, 0.25);
+  box-shadow: 0 1px 10px 0 rgba(0, 0, 0, 0.2);
+  backdrop-filter: blur(8px);
+  -webkit-backdrop-filter: blur(4px);
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  border-bottom-right-radius: 10px;
+  border-bottom-left-radius: 10px;
 }

@@ -17,10 +17,11 @@ export default function Signup() {
   const [confirmPassword,setConfirmPassword] = useState("");
 
 
-  const divert=()=>{
+  const handleBackToLogin=()=>{
       document.title = "Odoo - Login";
-      Navigate('/')
+      Navigate('/Login')
   }
+  
   const handleSubmit = async (e) => {
     e.preventDefault();
     setShowToast(true);
@@ -39,7 +40,7 @@ export default function Signup() {
         } 
         if(response.data.message==="User Created Successfully"){
           document.title = "Odoo - Home";
-          Navigate("/Home");
+          Navigate("/");
        }
       }
     }
@@ -55,7 +56,7 @@ export default function Signup() {
         <div id="imgs1InSignup">
           <img
             className="arrow1InSignup"
-            onClick={() => Navigate("/")}
+            onClick={() => Navigate("/Login")}
             src={arrow}
             alt="arrow"
           />
@@ -76,7 +77,7 @@ export default function Signup() {
           <div id="onSignup">
             <button id="btn4InSignup" type="submit" onClick={handleSubmit}>SIGN UP</button>
           </div>
-          <button className="haveAcc" onClick={() => divert()}>I already have an account</button>
+          <button className="haveAcc" onClick={handleBackToLogin}>I already have an account</button>
         </div>
       </div>
     </form>
