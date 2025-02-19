@@ -1,3 +1,3 @@
 # Odoo_Clone
 
-https://www.odoo.com/
+odoo https://www.odoo.com/
