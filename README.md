@@ -1,3 +1,3 @@
 # Odoo_Clone
 
-Odoo:- https://www.odoo.com/
+Official Odoo Page:- https://www.odoo.com/
