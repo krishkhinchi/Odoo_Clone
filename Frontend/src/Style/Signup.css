@@ -63,6 +63,10 @@ body{
     height: 40px;
 }
 
+.int1InSignup:hover,.int2InSignup:hover{
+    border-width: 3px;
+}
+
 .NameInSignup,.PasswordInSignup,.CPInSignup{
     margin-top: 10px;
 }
@@ -88,4 +92,8 @@ body{
     margin-left: 55px;
     margin-top: 20px;
     color: rgb(1,126,132);
+}
+
+#footerInSignup{
+    margin-top: 20px;
 }

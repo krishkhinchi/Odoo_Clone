@@ -1,8 +1,8 @@
 import React, { useState } from "react";
 import axios from "axios";
 import "../Style/Signup.css";
+import Footer from "./Footer";
 import arrow from "../img/arrow.png";
-// import Login from "../Components/Login";
 import logo from "../img/odoo_logo.webp";
 import { useNavigate } from "react-router-dom";
 import { ToastContainer, toast } from "react-toastify";
@@ -82,6 +82,9 @@ export default function Signup() {
       </div>
     </form>
     <ToastContainer/>
+    <div id="footerInSignup">
+      <Footer/>
+    </div>
     </>
   );
 }

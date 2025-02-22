@@ -14,14 +14,19 @@
   margin-top: -6px;
 }
 
+#odoologo:hover{
+  filter: drop-shadow(5px 5px 10px rgba(0, 0, 0, 0.3));
+}
+
 #navbar {
   display: flex;
   margin-left: 116px;
 }
 
 .h1 {
-  margin-left: 50px;
-  font-family: sans-serif, Helvetica;
+  /* margin-left: 50px; */
+  /* font-family: sans-serif, Helvetica; */
+  font-family: "secondaryFont";
   font-size: 14.3px;
   font-weight: 550;
   color: rgb(80, 80, 80);
@@ -29,7 +34,8 @@
 
 .h2 {
   margin-left: 45px;
-  font-family: sans-serif, Helvetica;
+  /* font-family: sans-serif, Helvetica; */
+  font-family: "secondaryFont";
   font-size: 14.3px;
   font-weight: 550;
   color: rgb(80, 80, 80);
@@ -37,7 +43,8 @@
 
 .h3 {
   margin-left: 45px;
-  font-family: sans-serif, Helvetica;
+  /* font-family: sans-serif, Helvetica; */
+  font-family: "secondaryFont";
   font-size: 14.3px;
   font-weight: 550;
   color: rgb(80, 80, 80);
@@ -45,7 +52,8 @@
 
 .h4 {
   margin-left: 45px;
-  font-family: sans-serif, Helvetica;
+  /* font-family: sans-serif, Helvetica; */
+  font-family: "secondaryFont";
   font-size: 14.3px;
   font-weight: 550;
   color: rgb(80, 80, 80);
@@ -53,7 +61,8 @@
 
 .h5 {
   margin-left: 45px;
-  font-family: sans-serif, Helvetica;
+  /* font-family: sans-serif, Helvetica; */
+  font-family: "secondaryFont";
   font-size: 14.3px;
   font-weight: 550;
   color: rgb(80, 80, 80);
@@ -64,7 +73,7 @@
 .h3:hover,
 .h4:hover,
 .h5:hover{
-  color: rgb(0, 0, 0);
+  color: rgb(162, 70, 137);
 }
 
 .Tryitfree {

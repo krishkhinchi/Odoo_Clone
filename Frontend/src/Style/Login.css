@@ -63,6 +63,10 @@ body{
     height: 40px;
 }
 
+.int1InLogin:hover,.int2InLogin:hover{
+    border-width: 3px;
+}
+
 #pw{
     margin-top: 20px;
 }
@@ -93,4 +97,8 @@ body{
     margin-left: 65px;
     margin-top: 20px;
     color: rgb(1,126,132);
+}
+
+#footerInLogin{
+    margin-top: 20px;
 }

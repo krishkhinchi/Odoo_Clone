@@ -24,7 +24,7 @@ export default function ProfileUserInHeader() {
   };
 
   const handleLogout = () => {
-    document.title = "Odoo"
+    document.title = "Odoo" 
     Navigate("/")
   }
 

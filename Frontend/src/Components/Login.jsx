@@ -1,7 +1,8 @@
 import React from "react";
 import axios from "axios";
-import { useState } from "react";
 import "../Style/Login.css";
+import Footer from "./Footer";
+import { useState } from "react";
 import arrow from "../img/arrow.png";
 import logo from "../img/odoo_logo.webp";
 import { ToastContainer, toast } from "react-toastify";
@@ -109,6 +110,9 @@ export default function Login() {
         </div>
       </form>
       <ToastContainer/>
+      <div id="footerInLogin">
+        <Footer/>
+      </div>
     </>
   );
 }

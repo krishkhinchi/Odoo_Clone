@@ -23,16 +23,16 @@ export default function ChatBot() {
   const [count, setCount] = useState(0);
 
   const arr = [
-    { img: img1, name: "Khushi Singh" },
-    { img: img2, name: "Tanu Panchal" },
-    { img: img3, name: "Krish Khinchi" },
-    { img: img4, name: "Krish Hackz" },
-    { img: img5, name: "Lucky Lohar" },
-    { img: img6, name: "Pratik Solanki" },
-    { img: img7, name: "Ronak Malam" },
-    { img: img8, name: "Zuveriya Pathan" },
-    { img: img4, name: "Krish Hackz" },
-    { img: img4, name: "Krish Hackz" },
+    { img: img1, name: "Khushi Singh", position: "Technical Expert" },
+    { img: img2, name: "Tanu Panchal", position: "HR Recruiter" },
+    { img: img3, name: "Krish Khinchi", position: "Former CEO of SAP" },
+    { img: img4, name: "Krish Hackz", position: "Data Analyst" },
+    { img: img5, name: "Lucky Lohar", position: "Customer Support Representative" },
+    { img: img6, name: "Pratik Solanki", position: "Software Developer" },
+    { img: img7, name: "Ronak Malam", position: "Marketing Specialist" },
+    { img: img8, name: "Zuveriya Pathan", position: "Sales Manager" },
+    { img: img4, name: "Krish Hackz", position: "Data Analyst" },
+    { img: img4, name: "Krish Hackz", position: "Data Analyst" },
   ];
 
   const randomElement = arr[Math.floor(Math.random() * 10)];
@@ -85,6 +85,7 @@ export default function ChatBot() {
           </div>
           <div className="handleAdminNameInChatbotTitle">
             <h1 className="adminNameInChatbotTitle">{randomElement.name}</h1>
+            <h3 className="adminPositionInChatbotTitle">{randomElement.position}</h3>
           </div>
           <img
             className="minimizeImgInChatbotTitle"

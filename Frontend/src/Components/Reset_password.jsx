@@ -1,4 +1,5 @@
 import React from "react";
+import Footer from "./Footer";
 import { useState } from "react";
 import "../Style/Reset_password.css";
 import arrow from "../img/arrow.png";
@@ -47,6 +48,9 @@ export default function Reset_password() {
           </div>
         </div>
       </form>
+      <div id="footerInResetPassword">
+        <Footer/>
+      </div>
     </>
   );
 }

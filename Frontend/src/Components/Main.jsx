@@ -1,8 +1,7 @@
 import React from "react";
 import "../Style/Main.css";
-import PageNotFound from "./PageNotFound";
+import "../index.css";
 import { useNavigate } from "react-router-dom";
-import ReactPlayer from "react-player";
 import { useState, useEffect } from "react";
 
 import India from "../img/India.jpg";
@@ -22,7 +21,9 @@ import speed_1 from "../img/interface/speed_1.webp";
 import speed_3 from "../img/interface/speed_3.webp";
 import speed_4 from "../img/interface/speed_4.webp";
 import laptopMockup from "../img/TechTools/laptopMockup.png";
+import bgDesignToWhiteSection from "../img/bgDesignToWhiteSection.png";
 
+//videos
 import video1 from "../video/video_homepage.mp4";
 import video2 from "../video/ctrl-k-630.gif";
 
@@ -52,16 +53,30 @@ import Sales from "../img/Bundle/Sales.svg";
 import HR from "../img/Bundle/HR.svg";
 import Dashboard from "../img/Bundle/Dashboard.svg";
 
+//TechTools
+import shopfloor from "../img/TechTools/device_shopfloor.webp";
+import device_expenses from "../img/TechTools/device_expenses.webp";
+import device_pos from "../img/TechTools/device_pos.webp";
+import device_iot from "../img/TechTools/device_iot.webp";
+import device_frontdesk from "../img/TechTools/device_frontdesk.webp";
+import device_inventory from "../img/TechTools/device_inventory.webp";
+import device_kiosk from "../img/TechTools/device_kiosk.webp";
+
+//fonts
+import "../fonts/BrushSignature-Rp7EV.otf";
+import "../fonts/Caveat-Bold/Caveat-Bold.ttf";
+import "../fonts/space-crusaders-font/SpaceCrusaders-x3DP0.ttf";
+
 export default function Main() {
   const Navigate = useNavigate();
   const [count, setCount] = useState(0);
 
   useEffect(() => {
-    window.scrollTo({ top: 0, left: 0, behavior: 'smooth' });
-    // if (window.scrollY > 2900){
+    window.scrollTo({ top: 0, left: 0, behavior: "smooth" });
+    // if (window.scrollY > 2900) {
     //   document.getElementById("speed_4InMain").style.display = "block";
     // }
-  },[]);
+  }, []);
 
   function handleToggle() {
     setCount(count + 1);
@@ -382,7 +397,7 @@ export default function Main() {
             <h1 className="nameinCurlyInMain">SAP</h1>
           </div>
         </div>
-        <div style={{ display: "flex" }}>
+        <div div style={{ display: "flex" }}>
           <div id="toggleBodyInMain">
             <img
               className="designToggle1"
@@ -444,19 +459,28 @@ export default function Main() {
             />
           </div>
           <div id="WhiteSectionInMain">
-            <div id="headingInWhiteSectionInMain">
-              <h1>Level up your quality of work</h1>
+            <div id="headingPartWhiteSectionInMain">
+              <h1 className="headingInWhiteSectionInMain">
+                Level up your quality of work
+              </h1>
+              <img
+                className="design1InWhiteSectionInMain"
+                src={bgDesignToWhiteSection}
+              />
+              <div className="design2InWhiteSectionInMain"></div>
             </div>
-            <video className="videoInMain1" autoPlay muted loop width="705">
-              <source src={video1} type="video/mp4" />
-            </video>
-            <div className="hideSpaceInLaptop">
-              <img className="logoInhideSpace" src={logo} />
+            <div className="laptopVideoInMain">
+              <video className="videoInMain1" autoPlay muted loop width="705">
+                <source src={video1} type="video/mp4" />
+              </video>
+              <div className="hideSpaceInLaptop">
+                <img className="logoInhideSpace" src={logo} />
+              </div>
+              <img
+                className="laptopMockupInWhiteSectionInMain"
+                src={laptopMockup}
+              />
             </div>
-            <img
-              className="laptopMockupInWhiteSectionInMain"
-              src={laptopMockup}
-            />
           </div>
           <div id="optimizedForProductivityInMain">
             <h1 className="mainTextInOptimizedForProductivityInMain">
@@ -508,7 +532,34 @@ export default function Main() {
               All the tech in one platform
             </h1>
           </div>
-          <div className="subDiv2InWhiteSection"></div>
+          <div className="techSection1InbgWhiteInMain3">
+            <div className="subDiv1InTechSection">
+              <img className="shopfloor" src={shopfloor} />
+            </div>
+            <div className="subDiv2InTechSection">
+              <img className="device_expenses" src={device_expenses} />
+            </div>
+            <div className="subDiv3InTechSection">
+              <img className="device_pos" src={device_pos} />
+            </div>
+            <div className="subDiv4InTechSection">
+              <img className="device_iot" src={device_iot} />
+            </div>
+          </div>
+          <div className="techSection2InbgWhiteInMain3">
+            <div className="subDiv5InTechSection">
+              <img className="device_frontdesk" src={device_frontdesk} />
+            </div>
+            <div className="subDiv6InTechSection">
+              <img className="device_inventory" src={device_inventory} />
+            </div>
+            <div className="subDiv7InTechSection">
+              <img className="device_kiosk" src={device_kiosk} />
+            </div>
+          </div>
+        </div>
+        <div id="bgGrayInMain3">
+          {/* <h1>Enterprise software <br /> done right</h1> */}
         </div>
       </div>
     </>

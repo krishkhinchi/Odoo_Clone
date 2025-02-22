@@ -1,13 +1,20 @@
 #setFooterinHome{
-    padding-top: 1000px;
+    padding-top: 30px;
 }
 
 #setHeaderinHome{
     margin-top: 0px;
+    position: fixed;
+    z-index: 1;
 }
 
 #setMaininHome{
     margin-top: -30px;
+}
+
+#setDownloadTheAppinHome{
+    position: relative;
+    margin-left: -8px;
 }
 
 #BodyHome{

@@ -1,3 +1,15 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@font-face {
+  font-family: "mainFont";   /*Can be any text*/
+  src: local("Caveat-Bold"),
+  url("./fonts/Caveat-Bold/Caveat-Bold.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "secondaryFont";   /*Can be any text*/
+  src: local("space-crusaders-font"),
+  url("./fonts/space-crusaders-font/SpaceCrusaders-x3DP0.ttf") format("truetype");
+}

@@ -65,6 +65,7 @@
     color: white;
     font-size: large;
     font-weight: 700;
+    font-family: "secondaryFont";
 }
 
 .subFooterHeading1,.subFooterHeading2,.subFooterHeading3,.subFooterHeading4,.subFooterHeading5,.subFooterHeading6,.subFooterHeading7,.subFooterHeading8,.subFooterHeading9,.subFooterHeading10{
@@ -79,6 +80,11 @@
     color: white;
     font-size: large;
     font-weight: 700;
+    font-family: "secondaryFont";
+}
+
+.mainFooterHeading1:hover,.mainFooterHeading2:hover,.mainFooterHeading3:hover,.mainFooterHeading4:hover{
+    color: rgb(162, 70, 137);
 }
 
 .USA_Flag{

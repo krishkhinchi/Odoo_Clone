@@ -12,8 +12,9 @@
 .line1InMain {
   text-align: center;
   line-height: 1;
-  font-size: 75px;
-  font-family: cursive;
+  margin-top: -15px;
+  font-size: 95px;
+  font-family: "mainFont";
   font-weight: 540;
   rotate: -1deg;
 }
@@ -59,20 +60,20 @@
 .line2InMain {
   text-align: center;
   line-height: 1;
-  font-size: 75px;
-  font-family: cursive;
+  font-size: 95px;
+  font-family: "mainFont";
   font-weight: 540;
   rotate: -1deg;
   position: absolute;
-  margin-top: -80px;
-  padding-left: 340px;
+  margin-top: -90px;
+  padding-left: 350px;
 }
 
 .line3InMain {
   text-align: center;
   line-height: 1;
-  font-size: 40px;
-  font-family: cursive;
+  font-size: 60px;
+  font-family: "mainFont";
   font-weight: 550;
   padding-top: 25px;
   rotate: -deg;
@@ -112,8 +113,9 @@
   border-top-left-radius: 10000%;
   width: 150px;
   height: 5px;
-  margin-left: 730px;
-  margin-top: 63px;
+  margin-left: 700px;
+  margin-top: 75px;
+  z-index: -1;
   rotate: -1deg;
   position: relative;
 }
@@ -127,12 +129,11 @@
 .line4InMain {
   text-align: center;
   line-height: 1.5;
-  font-size: 22px;
-  font-family: cursive;
+  font-size: 30px;
+  font-family: "mainFont";
   font-weight: 640;
   rotate: -12deg;
   color: rgb(113, 75, 103);
-  margin-top: 5px;
   margin-left: 800px;
   position: relative;
 }
@@ -379,7 +380,7 @@
 .nameinCurlyInMain {
   text-align: center;
   color: rgb(113, 75, 103);
-  font-family: cursive;
+  font-family: "mainFont";
   font-weight: 600;
   font-size: 25px;
 }
@@ -540,13 +541,37 @@
   margin-left: 55px;
 }
 
-#headingInWhiteSectionInMain {
+.headingInWhiteSectionInMain {
   font-weight: 500;
-  font-size: 60px;
+  font-size: 80px;
+  z-index: 1;
   /* text-align: center; */
-  font-family: cursive;
+  font-family: "mainFont";
   padding-top: 100px;
-  margin-left: 100px;
+  margin-left: 150px;
+  position: relative;
+}
+
+.design1InWhiteSectionInMain{
+  width: 285px;
+  height: 150px;
+  margin-top: -124px;
+  margin-left: 110px;
+  position: absolute;
+}
+
+.design2InWhiteSectionInMain{
+  background-color: rgb(27, 182, 249);
+  border-radius: 100px;
+  border-bottom-right-radius: 10000%;
+  border-top-left-radius: 10000%;
+  width: 150px;
+  height: 5px;
+  margin-left: 775px;
+  margin-top: -30px;
+  /* z-index: -1; */
+  rotate: -1deg;
+  position: relative;
 }
 
 #WhiteSectionInMain {
@@ -585,6 +610,28 @@
   border-radius: 7px;
 }
 
+@keyframes appear {
+  from {
+    opacity: 0;
+    /* transform: translateX(-110px); */
+    scale: 0.5;
+  }
+  to {
+    opacity: 1;
+    /* transform: translateX(0px); */
+    scale: 1;
+  }
+}
+
+.laptopVideoInMain {
+  animation: appear 3s linear;
+  /* animation-timeline: view();
+  animation-range: entry 0% cover
+  40%;  */
+}
+
+
+
 #optimizedForProductivityInMain {
   width: 1500px;
   height: 1530px;
@@ -595,8 +642,9 @@
 
 .mainTextInOptimizedForProductivityInMain {
   padding-top: 80px;
-  font-size: 60px;
-  font-family: cursive;
+  font-size: 80px;
+  margin-top: -13px;
+  font-family: "mainFont";
   font-style: italic;
   position: absolute;
   margin-left: 365px;
@@ -723,11 +771,11 @@
 }
 
 .btn1InyoutubeContainerInMain {
-  font-size: 24px;
+  font-size: 30px;
   font-weight: 400;
-  font-family: cursive;
+  font-family: "mainFont";
   margin-left: 10px;
-  margin-top: 15px;
+  margin-top: 20px;
   color: rgb(113, 75, 103);
 }
 
@@ -737,9 +785,9 @@
 
 #bgWhiteInMain3 {
   background-color: #ffffff;
-  border-width: 5px;
-  width: 1500px;
-  height: 500px;
+  /* border-width: 1px; */
+  width: 1165px;
+  height: 900px;
 }
 
 .subDiv1InWhiteSection {
@@ -749,16 +797,61 @@
 .bgDesignToolInWhiteInMain3 {
   width: 300px;
   height: 100px;
-  margin-top: 97px;
-  margin-left: 200px;
+  margin-top: 110px;
+  margin-left: 170px;
 }
 
 .headingInSubDiv1InWhiteSection {
-  font-size: 60px;
+  font-size: 80px;
   /* font-weight: 900; */
   text-align: center;
-  font-family: cursive;
+  font-family: "mainFont";
   font-style: italic;
-  margin-left: -280px;
+  /* margin-left: 200px; */
   margin-top: 80px;
+  margin-left: -300px;
+}
+
+.techSection1InbgWhiteInMain3, .techSection2InbgWhiteInMain3{
+  width: 1165px;
+  height: 200px;
+  display: flex;
+  margin-top: 70px;
+  /* background-color: #f9b327; */
+}
+
+.subDiv1InTechSection,.subDiv2InTechSection,.subDiv3InTechSection,.subDiv4InTechSection,.subDiv6InTechSection,.subDiv7InTechSection{
+  width: 200px;
+  height: 200px;
+  border-radius: 100%;
+  margin-left: 70px;
+  background-color: rgb(243, 244, 246);
+}
+
+.subDiv5InTechSection{
+  width: 200px;
+  height: 200px;
+  border-radius: 100%;
+  margin-left: 210px;
+  background-color: rgb(243, 244, 246);
+}
+
+.subDiv1InTechSection:hover,.subDiv2InTechSection:hover,.subDiv3InTechSection:hover,.subDiv4InTechSection:hover,.subDiv5InTechSection:hover,.subDiv5InTechSection:hover,.subDiv6InTechSection:hover,.subDiv7InTechSection:hover{
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.1);
+  /* width: 210px;
+  height: 210px; */
+}
+
+.shopfloor:hover,.device_expenses:hover,.device_pos:hover,.device_iot:hover,.device_frontdesk:hover,.device_inventory:hover,.device_kiosk:hover{
+  filter: drop-shadow(5px 5px 10px rgba(0, 0, 0, 0.5));
+  rotate: 7deg;
+  transition: 0.5s;
+}
+
+#bgGrayInMain3{
+  width: 1165px;
+  height: 500px;
+  border-top-left-radius: 150px;
+  border-bottom-right-radius: 150px;
+  background-color: rgb(243, 244, 246);
 }
