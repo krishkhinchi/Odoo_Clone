@@ -93,6 +93,7 @@
   width: 200px;
   height: 50px;
   font-weight: 700;
+  /* transition: 200ms ease; */
 }
 
 .btn2inMain {
@@ -104,6 +105,11 @@
   height: 50px;
   margin-left: 20px;
   font-weight: 700;
+  /* transition: 200ms ease; */
+}
+
+.btn1inMain:hover,.btn2inMain:hover{
+  background-color: #f9b327;
 }
 
 .Style4InMain {
@@ -209,6 +215,7 @@
   /* background-color: #ffffff; */
   margin-left: 270px;
   margin-top: 50px;
+  /* background-color: #f9b327; */
 }
 
 #appLine1,
@@ -227,6 +234,18 @@
   border-radius: 10px;
   background-color: #ffffff;
   box-shadow: -1px -1px 10px 1px rgba(0, 0, 0, 0.3);
+}
+/* .appInMain1>img:hover{
+background-color: red;
+} */
+.appInMain1{
+  position: relative;
+  z-index: 10;
+}
+
+.appInMain1:hover{
+  background-color: #f9b327;
+  transition: 200ms ease-in-out;
 }
 
 .appInMain2,
@@ -826,6 +845,7 @@
   border-radius: 100%;
   margin-left: 70px;
   background-color: rgb(243, 244, 246);
+  transition: 200ms ease-in-out;
 }
 
 .subDiv5InTechSection{
@@ -834,18 +854,26 @@
   border-radius: 100%;
   margin-left: 210px;
   background-color: rgb(243, 244, 246);
+  transition: 200ms ease-in-out;
 }
 
 .subDiv1InTechSection:hover,.subDiv2InTechSection:hover,.subDiv3InTechSection:hover,.subDiv4InTechSection:hover,.subDiv5InTechSection:hover,.subDiv5InTechSection:hover,.subDiv6InTechSection:hover,.subDiv7InTechSection:hover{
-  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.1);
+  filter: drop-shadow(5px 5px 5px rgba(0, 0, 0, 0.2));
+  transition: 0.5s ease-in-out;
   /* width: 210px;
   height: 210px; */
 }
 
+.shopfloor,.device_expenses,.device_pos,.device_iot,.device_frontdesk,.device_inventory,.device_kiosk{
+  transition: 200ms ease-in-out;
+  scale: 0.9;
+}
+
 .shopfloor:hover,.device_expenses:hover,.device_pos:hover,.device_iot:hover,.device_frontdesk:hover,.device_inventory:hover,.device_kiosk:hover{
-  filter: drop-shadow(5px 5px 10px rgba(0, 0, 0, 0.5));
-  rotate: 7deg;
-  transition: 0.5s;
+  filter: drop-shadow(5px 5px 7px rgba(0, 0, 0, 0.7));
+  /* rotate: 7deg; */
+  scale: 1;
+  transition: 0.5s ease-in-out;
 }
 
 #bgGrayInMain3{

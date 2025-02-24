@@ -46,6 +46,7 @@ export default function ChatBot() {
   function handleHideChatBot() {
     document.getElementById("chatSectionInChatBot").style.display = "block";
     document.getElementById("circleInChatBot").style.display = "none";
+    document.getElementById("circleToHideInChatBot").style.display = "none";
   }
 
   function handleMinimize() {
