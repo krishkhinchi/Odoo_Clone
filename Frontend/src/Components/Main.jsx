@@ -20,7 +20,9 @@ import designMain5 from "../img/designMain5.png";
 import speed_1 from "../img/interface/speed_1.webp";
 import speed_3 from "../img/interface/speed_3.webp";
 import speed_4 from "../img/interface/speed_4.webp";
+import set_up from "../img/interface/set_up.webp";
 import laptopMockup from "../img/TechTools/laptopMockup.png";
+import uniquevalue2024 from "../img/interface/unique-value-2024.svg";
 import bgDesignToWhiteSection from "../img/bgDesignToWhiteSection.png";
 
 //videos
@@ -72,7 +74,7 @@ export default function Main() {
   const [count, setCount] = useState(0);
 
   useEffect(() => {
-    window.scrollTo({ top: 0, left: 0, behavior: "smooth" });
+    // window.scrollTo({ top: 0, left: 0, behavior: "smooth" });
     // if (window.scrollY > 2900) {
     //   document.getElementById("speed_4InMain").style.display = "block";
     // }
@@ -449,7 +451,7 @@ export default function Main() {
                 <i>If you simplify everything, you can do anything!</i>
               </h1>
               <h1 className="line2InReviewInWhiteSectionInMain">
-                - Krish Khinchi, former CEO of SAP
+                - Krish Khinchi
               </h1>
             </div>
             <img
@@ -518,9 +520,11 @@ export default function Main() {
                   className="youtubeIconInOptimizedForProductivity"
                   src={youtubeIcon}
                 />
-                <button className="btn1InyoutubeContainerInMain">
-                  <b>Compare with SAP</b>
-                </button>
+                <a href="https://www.youtube.com/@Krish_Hackz">
+                  <button className="btn1InyoutubeContainerInMain">
+                    <b>Compare with SAP</b>
+                  </button>
+                </a>
               </div>
             </div>
           </div>
@@ -546,6 +550,20 @@ export default function Main() {
               <img className="device_iot" src={device_iot} />
             </div>
           </div>
+          <div className="techName1InTechSection">
+            <div className="product1InTechSection">
+              <h1 className="heading1InTechSection">Shop Floor</h1>
+            </div>
+            <div className="product2InTechSection">
+              <h1 className="heading2InTechSection">Expenses</h1>
+            </div>
+            <div className="product3InTechSection">
+              <h1 className="heading3InTechSection">Point of Sale</h1>
+            </div>
+            <div className="product4InTechSection">
+              <h1 className="heading4InTechSection">IoT</h1>
+            </div>
+          </div>
           <div className="techSection2InbgWhiteInMain3">
             <div className="subDiv5InTechSection">
               <img className="device_frontdesk" src={device_frontdesk} />
@@ -557,9 +575,133 @@ export default function Main() {
               <img className="device_kiosk" src={device_kiosk} />
             </div>
           </div>
+          <div className="techName2InTechSection">
+            <div className="product5InTechSection">
+              <h1 className="heading5InTechSection">Frontdesk</h1>
+            </div>
+            <div className="product6InTechSection">
+              <h1 className="heading6InTechSection">Inventory</h1>
+            </div>
+            <div className="product7InTechSection">
+              <h1 className="heading7InTechSection">Kiosk</h1>
+            </div>
+          </div>
         </div>
         <div id="bgGrayInMain3">
-          {/* <h1>Enterprise software <br /> done right</h1> */}
+          <div>
+            <h1 className="mainHeading1InbgGrayInMain3">Enterprise software</h1>
+            <h1 className="mainHeading2InbgGrayInMain3">done right</h1>
+          </div>
+          <div id="mainDivInbgGrayInMain3">
+            <div id="submain1InbgGrayInMain3">
+              <div className="supersub1InbgGrayInMain3">
+                <h1 className="mainheadingInsupersub1">
+                  <b>Open source</b>
+                </h1>
+                <h1 className="subheading1Insupersub1">
+                  Behind the technology is a community of 100k+ <br />
+                  developers collaborating worldwide. We're <br />
+                  united by the spirit of open source, and a <br />
+                  common vision: "to transform companies, <br />
+                  empower employees".
+                </h1>
+                <h1 className="subheading2Insupersub1">
+                  Odoo is available in two editions: <br />
+                  <b>• Community</b>: Open Source, 100% free. <br />
+                  <b>• Enterprise</b>: extra apps, infrastructure and <br />
+                  professional services.
+                </h1>
+                <button className="btnInsupersub1">Compare Editions</button>
+              </div>
+
+              <div className="supersub2InbgGrayInMain3">
+                <h1 className="mainheadingInsupersub2">
+                  <b>Highly customizable</b>
+                </h1>
+                <h1 className="subheadingInsupersub2">
+                  Use Odoo Studio to automate actions, design <br />
+                  custom screens, custom reports, or web hooks.
+                </h1>
+                <div className="imgdivInsupersub2">
+                  <img className="imgInsupersub2" src={set_up} />
+                </div>
+              </div>
+
+              <div className="supersub3InbgGrayInMain3">
+                <h1 className="mainheadingInsupersub3">
+                  <b>40k+ community apps</b>
+                </h1>
+                <h1 className="subheadingInsupersub3">
+                  Thanks to its open source development model, <br />
+                  Odoo became the world's largest business apps <br />
+                  store. Imagine getting an app for every business <br />
+                  needs.
+                </h1>
+                <button className="btnInsupersub3">
+                  Browse Community Apps
+                </button>
+              </div>
+
+              <div className="supersub4InbgGrayInMain3">
+                <h1 className="mainheadingInsupersub4">
+                  <b>No corporate bullsh*t</b>
+                </h1>
+                <h1 className="subheading1Insupersub4">
+                  "With most systems, you get 70% of what you <br />
+                  hoped. With Odoo, you get more than what you <br />
+                  expected. You, guys, will transform the market."
+                </h1>
+                <h1 className="subheading2Insupersub4">
+                  <i>- Anonymous competitor</i>
+                </h1>
+              </div>
+            </div>
+
+            <div id="submain2InbgGrayInMain3">
+              <div className="supersub5InbgGrayInMain3">
+                <h1 className="mainheadingInsupersub5">
+                  <b>No vendor lock-in</b>
+                </h1>
+                <h1 className="subheadingInsupersub5">
+                  No proprietary data format, just <br />
+                  PostgreSQL: you own your <br />
+                  data. No software lock-in: you <br />
+                  get the source code, GitHub <br />
+                  access, and the flexibility to <br />
+                  host on our infrastructure, or on <br />
+                  premise.
+                </h1>
+                <a href="https://github.com/krishkhinchi/">
+                  <button className="btnInsupersub5">
+                    Follow us on Github
+                  </button>
+                </a>
+              </div>
+
+              <div className="supersub6InbgGrayInMain3">
+                <h1 className="mainheadingInsupersub6">
+                  <b>Fair pricing</b>
+                </h1>
+                <h1 className="subheadingInsupersub6">
+                  No usage-based pricing, no <br />
+                  feature upselling, no long term <br />
+                  contracts, no hosting limits, no <br />
+                  surprises... just a single price <br />
+                  per user - all inclusive.
+                </h1>
+                <button className="btnInsupersub6">View Pricing</button>
+              </div>
+
+              <div className="supersub7InbgGrayInMain3">
+                <h1 className="mainheadingInsupersub7">
+                  <b>
+                    A unique value <br /> proposition
+                  </b>
+                </h1>
+                <img className="imgInsupersub7" src={uniquevalue2024} />
+              </div>
+            </div>
+          </div>
         </div>
       </div>
     </>
