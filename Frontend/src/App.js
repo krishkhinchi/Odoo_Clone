@@ -10,6 +10,7 @@ import PageNotFound from "./Components/PageNotFound";
 import Reset_password from "./Components/Reset_password";
 import DownloadTheApp from "./Components/DownloadTheApp";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
+import Profile from "./Components/Profile";
 
 export default function App(){
   return <>
@@ -24,6 +25,7 @@ export default function App(){
       <Route path="/Startfree" element={<Startfree/>} />
       <Route path="/error" element={<PageNotFound/>} />
       <Route path="/ChatBot" element={<ChatBot/>} />
+      <Route path="/Profile" element={<Profile/>} />
     </Routes>
   </BrowserRouter>
   </>
