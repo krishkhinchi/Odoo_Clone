@@ -36,7 +36,7 @@ export default function ProfileUserInHeader() {
       <div id="afterClickOnProfileUserInHeader">
         <div id="div1InProfileUserInHeader">
           <img className="idcardInProfileUserInHeader" src={idcard} />
-          <button className="accountInProfileUserInHeader">My Account</button>
+          <button className="accountInProfileUserInHeader" onClick={()=>{Navigate("/Profile")}}>My Account</button>
         </div>
         <div id="div2InProfileUserInHeader">
           <img className="serverInProfileUserInHeader" src={database} />
