@@ -1,5 +1,7 @@
 import React from "react";
 import "./App.css";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+
 import Home from "./Components/Home";
 import Login from "./Components/Login";
 import Signup from "./Components/Signup";
@@ -9,8 +11,13 @@ import Startfree from "./Components/Startfree";
 import PageNotFound from "./Components/PageNotFound";
 import Reset_password from "./Components/Reset_password";
 import DownloadTheApp from "./Components/DownloadTheApp";
-import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Profile from "./Components/Profile";
+import Database from "./Components/Database";
+import AppInHeader from "./Components/AppInHeader";
+import IndustriesInHeader from "./Components/IndustriesInHeader";
+import CommunityInHeader from "./Components/CommunityInHeader";
+import PricingInHeader from "./Components/PricingInHeader";
+import ContactInHeader from "./Components/ContactInHeader";
 
 export default function App(){
   return <>
@@ -26,6 +33,12 @@ export default function App(){
       <Route path="/error" element={<PageNotFound/>} />
       <Route path="/ChatBot" element={<ChatBot/>} />
       <Route path="/Profile" element={<Profile/>} />
+      <Route path="/Database" element={<Database/>} />
+      <Route path="/AppInHeader" element={<AppInHeader/>} />
+      <Route path="/IndustriesInHeader" element={<IndustriesInHeader/>} />
+      <Route path="/CommunityInHeader" element={<CommunityInHeader/>} />
+      <Route path="/PricingInHeader" element={<PricingInHeader/>} />
+      <Route path="/ContactInHeader" element={<ContactInHeader/>} />
     </Routes>
   </BrowserRouter>
   </>
