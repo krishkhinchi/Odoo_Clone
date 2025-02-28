@@ -5,7 +5,7 @@ https://www.odoo.com/
 
 
 File Tree: 
-
+<!--
 Odoo_Clone/
 ├─ Backend/
 │  ├─ .env
@@ -195,3 +195,4 @@ Odoo_Clone/
 │  │     └─ video_homepage.mp4
 │  └─ tailwind.config.js
 └─ README.md
+-->
