@@ -1,7 +1,10 @@
 # Odoo_Clone
 
-Official Odoo Page:- https://www.odoo.com/
+Official Odoo Page:-
+https://www.odoo.com/
 
+
+File Tree: 
 
 Odoo_Clone/
 ├─ Backend/
