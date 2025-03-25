@@ -18,6 +18,8 @@ import IndustriesInHeader from "./Components/IndustriesInHeader";
 import CommunityInHeader from "./Components/CommunityInHeader";
 import PricingInHeader from "./Components/PricingInHeader";
 import ContactInHeader from "./Components/ContactInHeader";
+import Addbusiness from "./Components/Addbusiness";
+import TryItForFree from "./Components/TryItForFree";
 
 export default function App(){
   return <>
@@ -39,6 +41,8 @@ export default function App(){
       <Route path="/CommunityInHeader" element={<CommunityInHeader/>} />
       <Route path="/PricingInHeader" element={<PricingInHeader/>} />
       <Route path="/ContactInHeader" element={<ContactInHeader/>} />
+      <Route path="/Addbusiness" element={<Addbusiness/>} />
+      <Route path="/TryItForFree" element={<TryItForFree/>} />
     </Routes>
   </BrowserRouter>
   </>
