@@ -5,19 +5,28 @@ import { useNavigate } from "react-router-dom";
 import logo from "../img/odoo_logo.webp";
 import SigninInHeader from "./SigninInHeader";
 import ProfileUserInHeader from "./ProfileUserInHeader";
+import TryforFreeinHeader from "./TryforFreeinHeader";
+import BusinessInHeader from "./BusinessInHeader";
 
 export default function Header() {
 const Navigate = useNavigate();
 const [count, setCount] = useState(0);
+const [count1, setCount1] = useState(0);
 const [count2, setCount2] = useState(0);
 const [count3, setCount3] = useState(0);
 const [count4, setCount4] = useState(0);
 const [count5, setCount5] = useState(0);
 //  document.title = "Odoo - Home" 
 
-function handleApps(){
+function handleLogo(){
   setCount(count+1)
-  count%2==0 ? Navigate("/AppInHeader") : Navigate("/");
+  count%2==0 ? Navigate("/") : console.log("");
+  window.scrollTo({ top: 0, left: 0, behavior: "smooth" });
+}
+
+function handleApps(){
+  setCount1(count1+1)
+  count1%2==0 ? Navigate("/AppInHeader") : Navigate("/");
 }
 
 function handleIndustries(){
@@ -44,7 +53,7 @@ function handleContact(){
     <>
     <div className="main">
       <div id="header">
-        <img id="odoologo" src={logo} alt="logo" />
+        <img id="odoologo" onClick={handleLogo} src={logo} alt="logo" />
         <nav id="navbar">
           <button className="h1" onClick={handleApps}>Apps</button>
           <button className="h2" onClick={handleIndustries}>Industries</button>
@@ -53,7 +62,7 @@ function handleContact(){
           <button className="h5" onClick={handleContact}>Contact</button>
         </nav>
         {(document.title === "Odoo - Home" ) ? <ProfileUserInHeader/> : <SigninInHeader/>}
-        <button className="Tryitfree" onClick={()=>Navigate("/error")}>Try it free</button>
+        {(document.title === "Odoo - Home" ) ? <BusinessInHeader/> : <TryforFreeinHeader/>}
       </div>
       <div id="blurInHeader"></div>
     </div>

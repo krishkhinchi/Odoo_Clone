@@ -3,6 +3,12 @@
     height: 300px;
     margin-left: 255px;
     margin-top: 70px;
+    transition: 200ms ease-in-out;
+}
+
+#error404:hover{
+    filter: drop-shadow(5px 5px 10px rgba(0, 0, 0, 0.5));
+    /* box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.5); */
 }
 
 #error404Button{
@@ -15,4 +21,10 @@
     font-weight: 700;
     margin-left: 430px;
     margin-top: 70px;
+    transition: 200ms ease-in-out;
+}
+
+#error404Button:hover{
+    background-color: rgb(162, 70, 137);
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.5);
 }

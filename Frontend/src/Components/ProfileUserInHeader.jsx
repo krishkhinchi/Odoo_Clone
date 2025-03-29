@@ -40,7 +40,7 @@ export default function ProfileUserInHeader() {
         </div>
         <div id="div2InProfileUserInHeader">
           <img className="serverInProfileUserInHeader" src={database} />
-          <button className="databasesInProfileUserInHeader">My Databases</button>
+          <button className="databasesInProfileUserInHeader" onClick={()=>{Navigate("/Database")}}>My Databases</button>
         </div>
         <div id="thinLineInProfileUserInHeader"></div>
         <div id="div3InProfileUserInHeader" onClick={handleLogout}>

@@ -117,7 +117,7 @@ export default function Main() {
 
   return (
     <>
-      <div>
+      <div id="MainBody">
         <div id="HeadinginMain">
           <h1 className="line1InMain">All your business on</h1>
           <div id="styleInMain">
@@ -128,20 +128,20 @@ export default function Main() {
           <h1 className="line2InMain">one platform.</h1>
           <h1 className="line3InMain">Simple, efficient, yet affordable!</h1>
           <div className="Style4InMain"></div>
-          <div id="button">
-            <button className="btn1inMain" onClick={() => Navigate("/error")}>
-              Start now - It's free
-            </button>
-
-            <button className="btn2inMain" onClick={() => Navigate("/error")}>
-              Meet an advisor
-            </button>
-          </div>
-          <img id="Arrow1InMain" src={Arrow1} alt="Arrow" />
-          <h1 className="line4InMain">
-            499 Rs / month <br /> for ALL apps
-          </h1>
         </div>
+        <div id="button">
+          <button className="btn1inMain" onClick={() => Navigate("/TryItForFree")}>
+            Start now - It's free
+          </button>
+
+          <button className="btn2inMain" onClick={() => Navigate("/error")}>
+            Meet an advisor
+          </button>
+        </div>
+        <img id="Arrow1InMain" src={Arrow1} alt="Arrow" />
+        <h1 className="line4InMain">
+          499 Rs / month <br /> for ALL apps
+        </h1>
       </div>
       <div id="allFeaturesInMain">
         <div id="bgGrayInMain1">
@@ -396,7 +396,7 @@ export default function Main() {
           </div>
           <div id="curlyInMain1">
             <img className="curly" src={Curly2} alt="curly" />
-            <h1 className="nameinCurlyInMain">SAP</h1>
+            <h1 className="nameinCurlyInMain"><b>SAP</b></h1>
           </div>
         </div>
         <div div style={{ display: "flex" }}>
@@ -472,7 +472,7 @@ export default function Main() {
               <div className="design2InWhiteSectionInMain"></div>
             </div>
             <div className="laptopVideoInMain">
-              <video className="videoInMain1" autoPlay muted loop width="705">
+              <video className="VideoInMain1" autoPlay muted loop width="705">
                 <source src={video1} type="video/mp4" />
               </video>
               <div className="hideSpaceInLaptop">
@@ -637,7 +637,7 @@ export default function Main() {
                   store. Imagine getting an app for every business <br />
                   needs.
                 </h1>
-                <button className="btnInsupersub3">
+                <button onClick={()=>{Navigate("/AppInHeader")}} className="btnInsupersub3">
                   Browse Community Apps
                 </button>
               </div>
@@ -689,7 +689,7 @@ export default function Main() {
                   surprises... just a single price <br />
                   per user - all inclusive.
                 </h1>
-                <button className="btnInsupersub6">View Pricing</button>
+                <button onClick={()=>{Navigate("/PricingInHeader")}} className="btnInsupersub6">View Pricing</button>
               </div>
 
               <div className="supersub7InbgGrayInMain3">

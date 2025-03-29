@@ -1,10 +1,13 @@
 import React from "react";
-import krishhackz from "../img/KrishHackz.jpg"
+import krishhackz from "../img/KrishHackz.jpg";
+import Header from "./Header";
 
 function Profile() {
+  document.title = "Odoo - Home";
   return (
     <>
-      <div class="container mx-auto p-6">
+      <Header />
+      <div class="container mx-auto pt-20 p-6">
         <div class="flex flex-col md:flex-row">
           <div class="w-full md:w-2/3">
             <h1 class="text-3xl font-bold mb-6">My account</h1>

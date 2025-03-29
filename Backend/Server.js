@@ -71,6 +71,13 @@ app.put('/Update', async (req,res) => {
   }
 });
 
+app.post('/business', (req, res) => {
+  const { businessName, email, password } = req.body;
+  console.log('Received business data:', { businessName, email, password });
+  res.status(201).json({ message: 'Business added successfully!' });
+});
+
+
 app.listen(process.env.PORT, () => {
   console.log("Server is running...");
 });

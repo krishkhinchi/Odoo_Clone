@@ -3,7 +3,7 @@
   height: 60px;
   width: 1500px;
   position: fixed;
-  z-index: 1;
+  z-index: 5;
   /* background-color: white; */
 }
 
@@ -12,10 +12,6 @@
   width: 70px;
   height: 70px;
   margin-top: -6px;
-}
-
-#odoologo:hover{
-  filter: drop-shadow(5px 5px 10px rgba(0, 0, 0, 0.3));
 }
 
 #navbar {
@@ -95,14 +91,16 @@
 
 #blurInHeader {
   height: 60px;
-  width: 1165px;
+  /* width: 1165px; */
+  width: 1180px;
   position: fixed;
+  z-index: 4;
 
   background: rgba(255, 255, 255, 0.25);
   box-shadow: 0 1px 10px 0 rgba(0, 0, 0, 0.2);
   backdrop-filter: blur(8px);
   -webkit-backdrop-filter: blur(4px);
   border: 1px solid rgba(255, 255, 255, 0.18);
-  border-bottom-right-radius: 10px;
-  border-bottom-left-radius: 10px;
+  /* border-bottom-right-radius: 10px;
+  border-bottom-left-radius: 10px; */
 }

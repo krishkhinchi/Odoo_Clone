@@ -20,3 +20,9 @@
 #BodyHome{
     overflow-x: hidden;
 }
+
+@media screen and (min-width: 480px) {
+    .main {
+      background-color: aqua;
+    }
+  }

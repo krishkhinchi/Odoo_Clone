@@ -1,0 +1,99 @@
+body{
+    background-color: rgb(255, 255, 255);
+}
+
+#imgs1InAddbusiness{
+    display: flex;
+}
+
+.arrow1InAddbusiness{
+    width: 20px;
+    height: 20px;
+    margin-top: 10px;
+    margin-left: 10px;
+    opacity: 20%;
+}
+
+.arrow1InAddbusiness:hover{
+    opacity: 50%;
+    transition: 0.1s;
+}
+
+#Addbusiness{
+    width: 350px;
+    height: 610px;
+    background-color: rgb(255, 255, 255);
+    margin-left: 400px;
+    margin-top: 20px;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.4);
+    border-width: 1px;
+}
+
+.odoologo3InAddbusiness{
+    width: 100px;
+    height: 100px;
+    margin-left: 90px;
+    margin-top: -10px;
+}
+
+#infoAddbusiness{
+    width: 300px;
+    height: 100px;
+    margin-left: 25px;
+    border-radius: 10px;
+    border-width: 1.2px;
+    border-color: rgb(162,218,227);
+    background-color: rgb(209,236,241);
+    padding-top: 20px;
+    font-size: 13.5px;
+    font-weight: 400;
+    text-align: center;
+    color: rgb(9,65,74);
+    margin-top: -10px;
+}
+
+#inputInAddbusiness{
+    padding: 25px;
+}
+
+.int1InAddbusiness,.int2InAddbusiness{
+    border-width: 1.2px;
+    border-radius: 5px;
+    width: 300px;
+    height: 40px;
+}
+
+.int1InAddbusiness:hover,.int2InAddbusiness:hover{
+    border-width: 3px;
+}
+
+.EmailInAddbusiness,.PasswordInAddbusiness,.CPInAddbusiness{
+    margin-top: 10px;
+}
+
+#onAddbusiness{
+    background-color: rgb(113,75,103);
+    color: white;
+    width: 300px;
+    height: 40px;
+    margin-top: 40px;
+    text-align: center;
+    padding-top: 7px;
+    border-radius: 5px;
+    font-weight: 500;
+}
+
+#onAddbusiness:hover{
+    background-color: rgb(162,70,137);
+}
+
+.haveAcc{
+    text-align: center;
+    margin-left: 55px;
+    margin-top: 20px;
+    color: rgb(1,126,132);
+}
+
+#footerInAddbusiness{
+    margin-top: 20px;
+}
