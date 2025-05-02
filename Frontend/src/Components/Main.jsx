@@ -3,6 +3,7 @@ import "../Style/Main.css";
 import "../index.css";
 import { useNavigate } from "react-router-dom";
 import { useState, useEffect } from "react";
+import SimpleParallax from "simple-parallax-js";
 
 import India from "../img/India.jpg";
 import Arrow1 from "../img/arrow_doodle_1.svg";
