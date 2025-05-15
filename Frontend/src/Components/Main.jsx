@@ -151,7 +151,7 @@ export default function Main() {
             <h1 className="eventcityInMain">
               Business Show: Ahmedabad (India)
             </h1>
-            <h1 className="eventdateInMain">Feb 12, 2025</h1>
+            <h1 className="eventdateInMain">May 13, 2025</h1>
             <button className="btn3inMain">Register ⟶</button>
           </div>
           <div id="Arrow2InApps">
@@ -417,7 +417,7 @@ export default function Main() {
               Imagine without odoo
             </button>
           </div>
-          <div id="viewAllApps">
+          <div id="viewAllApps" onClick={()=>Navigate("/App")}>
             <button>View all Apps</button>
             <img className="arrowForviewAllApps" src={arrow3} alt="arrow" />
           </div>
@@ -638,7 +638,7 @@ export default function Main() {
                   store. Imagine getting an app for every business <br />
                   needs.
                 </h1>
-                <button onClick={()=>{Navigate("/AppInHeader")}} className="btnInsupersub3">
+                <button onClick={()=>{Navigate("/App")}} className="btnInsupersub3">
                   Browse Community Apps
                 </button>
               </div>
@@ -690,7 +690,7 @@ export default function Main() {
                   surprises... just a single price <br />
                   per user - all inclusive.
                 </h1>
-                <button onClick={()=>{Navigate("/PricingInHeader")}} className="btnInsupersub6">View Pricing</button>
+                <button onClick={()=>{Navigate("/Pricing")}} className="btnInsupersub6">View Pricing</button>
               </div>
 
               <div className="supersub7InbgGrayInMain3">
